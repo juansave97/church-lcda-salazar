@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+.container1 {
+    background-color: rgb(231, 231, 231) ;
+}
+div div iframe {
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+div div p {
+    
+    display: inline-block;
+    width: 40%;
+    margin-left: 70px;
+
+}
+div h1 {
+    text-align: center;
+    padding: 40px;
+    
+}
+div div {
+    padding: 40px;
+    
+}
+.letra{
+   color: rgb(73, 68, 68);
+}
+
+.center-tex {
+    text-align: justify;
+}
+
+@media (min-width:320px) and (max-width:600px) {
+
+    div div iframe {
+        display: block;
+        width: 90%;
+        padding: 5%;
+        
+    }
+    div div p {
+        
+        display: block;
+        width: 90%;
+        padding: 5%;
+        text-align: justify;
+        
+    }
+}
